@@ -1,0 +1,114 @@
+/** GLOBAL CSS**/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box; 
+}
+
+html{
+	font-size: 62.5%;
+}
+
+h1{
+	font-size: 2.6rem;
+
+	/** font-family: 'Lobster', cursive; **/
+}
+
+h2{
+	font-size: 2.6rem;
+}
+
+h3{
+	font-size:3rem;
+}
+
+/*h4,h5{
+	font-size:2.8rem;
+}
+*/
+li{
+	font-size:2rem;
+
+}
+
+a{
+	color: #ffffff;
+    text-decoration: none;
+
+}
+
+/** header **/
+.main-head{
+	background:#000000 ;
+	color: #ffffff ;
+	align-items: center;
+	width:100%;
+	margin:auto;
+	padding: 1 rem;
+}
+
+
+nav {
+min-height:57.6px;   /*10vh*/
+display:flex;
+align-items:center;
+width:90%;
+                                            /*margin: auto;*/
+padding:2 rem;
+text-indent: 3rem;
+
+}
+
+nav ul{
+	display:flex;
+	flex: 1 1 40rem;
+	align-items: center;
+	list-style: none;
+	justify-content: space-around;
+
+}
+
+
+#logo{
+	flex: 1 1 40rem;
+
+}
+
+
+/**hero**/
+
+.hero{
+
+	min-height: 90vh; /* 518.4px; */
+	background: linear-gradient(rgb(0,0,0),transparent),url('./img/wool.jpg');/* degradation de couleur */
+
+	background-size:cover;
+	/**background-position:bottom;**/ 
+	
+	color:  #e6ccb3 ;
+	display: flex;
+	flex-direction:column ;
+	justify-content:center;
+	align-items: center;
+}
+
+.hero h3{
+	
+	padding: 4rem;
+}
+
+button{
+	padding:2rem 6rem;
+	background:  #000000 ;
+	color: #e6ccb3 ;
+	font-size:1.8rem;
+	cursor: pointer;
+	border:none;
+}
+
+
+
+
+
